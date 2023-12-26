@@ -464,7 +464,7 @@ app marcup
   top: 0;
   left: 0;
   width: calc(100vw - 30px);
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
   background: #20202a;
   z-index: 999999;
   display: -webkit-box;
@@ -508,7 +508,7 @@ app marcup
 /* ----- scroll frame ----- */
 .art-scroll-frame {
   width: 100%;
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
 }
 
 .scrollbar-track {
@@ -584,7 +584,7 @@ app marcup
   background: #20202a;
   width: 290px;
   min-width: 290px;
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
   position: relative;
   z-index: 999;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -633,7 +633,7 @@ app marcup
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
   padding-right: 80px;
   -webkit-transition: 0.55s ease-in-out;
   transition: 0.55s ease-in-out;
@@ -665,7 +665,7 @@ app marcup
 .art-app .art-app-wrapper .art-app-container .art-menu-bar {
   background: #20202a;
   width: 230px;
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
   position: absolute;
   z-index: 99;
   right: -150px;
@@ -733,12 +733,12 @@ app marcup (after 920px)
   .art-preloader {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
   }
 
   /* ----- scroll frame ----- */
   .art-scroll-frame {
-    height: 100vh;
+    height: 100dvh;
   }
 
   .art-app {
@@ -754,7 +754,7 @@ app marcup (after 920px)
 
   .art-app .art-app-wrapper {
     border-radius: 0;
-    height: 100vh;
+    height: 100dvh;
   }
 
   .art-app .art-app-wrapper .art-app-container {
@@ -768,7 +768,7 @@ app marcup (after 920px)
     position: absolute;
     left: -290px;
     width: 290px;
-    height: 100vh;
+    height: 100dvh;
   }
 
   .art-app .art-app-wrapper .art-app-container .art-info-bar.art-active {
@@ -797,13 +797,13 @@ app marcup (after 920px)
   .art-app .art-app-wrapper .art-app-container .art-content {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     padding-right: 0;
     padding-top: 70px;
   }
 
   .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
-    height: calc(100vh - 70px);
+    height: calc(100dvh - 70px);
   }
 
   .art-app .art-app-wrapper .art-app-container .art-content.art-active {
@@ -820,7 +820,7 @@ app marcup (after 920px)
     position: absolute;
     right: -230px;
     width: 230px;
-    height: 100vh;
+    height: 100dvh;
   }
 
   .art-app .art-app-wrapper .art-app-container .art-menu-bar.art-active {
@@ -2573,7 +2573,7 @@ portfolio
 .fancybox-container {
   margin: 15px;
   width: calc(100vw - 30px);
-  height: calc(100vh - 30px);
+  height: calc(100dvh - 30px);
 }
 
 .fancybox-container .fancybox-bg {
@@ -2791,7 +2791,7 @@ content (after 920px)
   .fancybox-container {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
   }
 
   .fancybox-toolbar {
